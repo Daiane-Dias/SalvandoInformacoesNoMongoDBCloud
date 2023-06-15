@@ -1,0 +1,126 @@
+*{
+padding:0px;
+margin:0px;
+}
+
+header{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	padding:20px;
+	background-color:#00FFFF;
+	color:white;
+	font-family:Cambria, Arial;
+}
+
+section{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:80vh;
+}
+
+form{
+	font-family:Arial;
+}
+
+form div{
+	display: fixed;
+	flex-direction:column;
+	margin-bottom:30px;
+}
+form input,form textarea,select{
+	outline:unset;
+	padding:20px;
+	min-width:300px;
+	border:1px solid #00FFFF;
+	border-radius: 20px;
+	
+}
+
+form input:focus,form textarea:focus{
+	background-color:#F5F5DC;
+}
+form input[type-submit]{
+	background-color:#00FFFF;
+	color:white;
+	cursor:pointer;
+}
+form label{
+	margin-left:10px;
+}
+
+
+
+
+a:hover{
+background-color:#44a;
+}
+
+ li a{
+text-decoration:none;
+background-color:#004;
+color:#fff;
+padding:0px;
+margin:0px;
+display:table-cell;
+text-align:center;
+vertical-align:middle;
+width:200px;
+height:30px;
+font-size:18px;
+}
+
+ul.a{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+ul.menu{
+            text-align: center; /* centraliza na horizontal */
+        }
+        ul.menu li{
+            display: inline-block; /* centraliza na horizontal */
+            margin: 0 5px;
+        }
+        ul.menu li a{
+            background-color: #3d7bb3;
+            border-radius: 6px;
+            padding: 6px 10px;
+            color: #fff;
+        }
+        ul.menu li a:hover{
+            background-color: #8BBADC;
+        }
+		
+table, th, td {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse:collapse;
+  border: 1px solid #fff;
+}
+
+td {
+  text-align: center;
+   height: 50px;
+  vertical-align: center;
+}
+
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+	}
+	
+/*#cadastro{
+  width: 50%; 
+float:left;
+}
+#cadastro1{
+width: 50%; 
+float:right;
+}*/
